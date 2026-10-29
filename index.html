@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="meta_title">Студия у Кремля — посуточная аренда (демо)</title>
+  <meta name="description" data-i18n-attr="content:meta_desc" content="Демо-сайт посуточной аренды для портфолио. Организация вымышлена, фото сгенерированы ИИ.">
+  <meta property="og:image" content="images/og-preview-card.webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="disclaimer-banner" data-i18n="disclaimer">
+    ⚠️ Демо-проект для портфолио. Организация «Студия у Кремля» вымышлена, бронирование не осуществляется, фото сгенерированы ИИ.
+  </div>
+
+  <header class="header">
+    <a href="#" class="logo">Студия <span>у Кремля</span></a>
+
+    <nav class="nav">
+      <a href="#gallery" data-i18n="nav_gallery">Фото</a>
+      <a href="#amenities" data-i18n="nav_amenities">Удобства</a>
+      <a href="#booking" data-i18n="nav_booking">Бронирование</a>
+    </nav>
+
+    <div class="lang-switch">
+      <button type="button" data-lang="ru" class="active">RU</button>
+      <button type="button" data-lang="en">EN</button>
+      <button type="button" data-lang="zh">中文</button>
+      <button type="button" data-lang="es">ES</button>
+      <button type="button" data-lang="hi">HI</button>
+      <button type="button" data-lang="ar">AR</button>
+      <button type="button" data-lang="pt">PT</button>
+      <button type="button" data-lang="fr">FR</button>
+      <button type="button" data-lang="de">DE</button>
+      <button type="button" data-lang="ja">日本語</button>
+    </div>
+  </header>
+
+  <section class="hero" style="background-image:url('images/hero-terrace-view.webp')">
+    <div class="hero__content">
+      <p class="hero__eyebrow" data-i18n="hero_eyebrow">Посуточная аренда · центр города</p>
+      <h1 data-i18n="hero_title">Студия с видом<br>на Кремль</h1>
+      <p class="hero__meta" data-i18n="hero_meta">2 гостя · 32 м² · терраса</p>
+      <div class="hero__bottom">
+        <p class="hero__price"><strong data-i18n="hero_price">4 500 ₽</strong> <span data-i18n="hero_price_night">/ ночь</span></p>
+        <a href="#booking" class="btn btn--primary" data-i18n="btn_book">Забронировать</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="section">
+    <div class="section__head">
+      <p class="section__eyebrow" data-i18n="gallery_eyebrow">Интерьер</p>
+      <h2 data-i18n="gallery_title">Фотографии</h2>
+    </div>
+    <div class="gallery">
+      <figure class="gallery__item gallery__item--wide">
+        <img src="images/living-room-morning-light.webp" alt="Гостиная с льняным диваном" data-i18n-attr="alt:img_living">
+      </figure>
+      <figure class="gallery__item">
+        <img src="images/bedroom-linen-closeup.webp" alt="Спальное место, льняное бельё" data-i18n-attr="alt:img_bedroom">
+      </figure>
+      <figure class="gallery__item">
+        <img src="images/kitchen-coffee-corner.webp" alt="Кухонный уголок с кофемашиной" data-i18n-attr="alt:img_kitchen">
+      </figure>
+      <figure class="gallery__item">
+        <img src="images/bathroom-stone-sink.webp" alt="Ванная с каменной раковиной" data-i18n-attr="alt:img_bathroom">
+      </figure>
+      <figure class="gallery__item">
+        <img src="images/balcony-kremlin-silhouette.webp" alt="Балкон с видом на кремль" data-i18n-attr="alt:img_balcony">
+      </figure>
+      <figure class="gallery__item">
+        <img src="images/workspace-oak-desk.webp" alt="Рабочее место с дубовым столом" data-i18n-attr="alt:img_workspace">
+      </figure>
+      <figure class="gallery__item">
+        <img src="images/hallway-arch-mirror.webp" alt="Прихожая с аркой и зеркалом" data-i18n-attr="alt:img_hallway">
+      </figure>
+    </div>
+  </section>
+
+  <section id="amenities" class="section section--alt">
+    <div class="section__head">
+      <p class="section__eyebrow" data-i18n="amenities_eyebrow">Комфорт</p>
+      <h2 data-i18n="amenities_title">Удобства</h2>
+    </div>
+    <ul class="amenities">
+      <li><span>📶</span> <span data-i18n="am_wifi">Wi-Fi 300 Мбит</span></li>
+      <li><span>☕</span> <span data-i18n="am_kitchen">Кухня и кофемашина</span></li>
+      <li><span>🧺</span> <span data-i18n="am_washer">Стиральная машина</span></li>
+      <li><span>❄️</span> <span data-i18n="am_ac">Кондиционер</span></li>
+      <li><span>💻</span> <span data-i18n="am_desk">Рабочее место</span></li>
+      <li><span>🚗</span> <span data-i18n="am_parking">Парковка во дворе</span></li>
+    </ul>
+  </section>
+
+  <section class="section floorplan">
+    <div class="section__head">
+      <p class="section__eyebrow" data-i18n="floorplan_eyebrow">32 м²</p>
+      <h2 data-i18n="floorplan_title">Планировка</h2>
+    </div>
+    <img src="images/floorplan-studio-scheme.webp" alt="Схема студии 32 м²" data-i18n-attr="alt:img_floorplan">
+  </section>
+
+  <section id="booking" class="section booking">
+    <div class="booking__grid">
+      <div class="booking__intro">
+        <p class="section__eyebrow" data-i18n="booking_eyebrow">Бронирование</p>
+        <h2 data-i18n="booking_title">Забронируйте даты</h2>
+        <p class="booking__lead" data-i18n="booking_lead">Выберите заезд и выезд — стоимость рассчитается автоматически с учётом сезона.</p>
+        <p class="booking__note" data-i18n="booking_note">Это демо: заявка никуда не уходит.</p>
+      </div>
+      <form id="bookingForm" class="booking__form" novalidate>
+        <div class="field-row">
+          <label><span data-i18n="field_checkin">Заезд</span><input type="date" name="checkIn" required></label>
+          <label><span data-i18n="field_checkout">Выезд</span><input type="date" name="checkOut" required></label>
+        </div>
+        <div class="field-row">
+          <label><span data-i18n="field_guests">Гостей</span>
+            <select name="guests"><option>1</option><option selected>2</option></select>
+          </label>
+          <label><span data-i18n="field_phone">Телефон</span><input type="tel" name="phone" placeholder="+7 ..." required></label>
+        </div>
+        <label><span data-i18n="field_name">Имя</span><input type="text" name="name" placeholder="" data-i18n-attr="placeholder:field_name_ph" required></label>
+        <p class="booking__total"><span data-i18n="total_label">Итого</span>: <span id="totalPrice">—</span></p>
+        <button type="submit" class="btn btn--primary btn--full" data-i18n="btn_submit">Отправить заявку</button>
+      </form>
+    </div>
+    <div id="bookingResult" class="booking__result" hidden></div>
+  </section>
+
+  <footer class="footer">
+    <p class="footer__logo">Студия у Кремля</p>
+    <p data-i18n="footer_note">Демо-проект для портфолио · 2026</p>
+    <a href="https://t.me/portfolio_demo" target="_blank" rel="noopener" data-i18n="footer_tg">Связаться со мной в Telegram</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
